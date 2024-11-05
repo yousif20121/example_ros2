@@ -1,0 +1,93 @@
+[1.333s] Invoking command in '/home/yousif/example_ros2/src/my_py_pkg': LD_LIBRARY_PATH=/home/yousif/example_ros2/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yousif/example_ros2/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yousif/example_ros2/build/my_py_pkg/build install --record /home/yousif/example_ros2/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.862s] running egg_info
+[1.863s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[1.863s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.864s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.864s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.864s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.865s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.865s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.868s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.869s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.870s] running build
+[1.870s] running build_py
+[1.870s] creating /home/yousif/example_ros2/build/my_py_pkg/build
+[1.871s] creating /home/yousif/example_ros2/build/my_py_pkg/build/lib
+[1.871s] creating /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.871s] copying my_py_pkg/led_panel.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.871s] copying my_py_pkg/hw_status_publisher.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.872s] copying my_py_pkg/number_counter_with_server.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.872s] copying my_py_pkg/__init__.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.872s] copying my_py_pkg/my_first_oop_timer_py_node.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.873s] copying my_py_pkg/my_first_oop_py_node.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.873s] copying my_py_pkg/number_counter.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.873s] copying my_py_pkg/battery.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.874s] copying my_py_pkg/my_first_minimal_py_node.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.874s] copying my_py_pkg/number_publisher_with_params.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.874s] copying my_py_pkg/add_two_ints_server.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.874s] copying my_py_pkg/add_two_ints_oop_client.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.874s] copying my_py_pkg/smartphone.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.875s] copying my_py_pkg/number_publisher.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.875s] copying my_py_pkg/add_two_ints_minimal_client.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.875s] copying my_py_pkg/robot_news_station.py -> /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg
+[1.875s] running install
+[1.875s] running install_lib
+[1.876s] creating /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.876s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.877s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.877s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/number_counter_with_server.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.877s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.878s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/my_first_oop_timer_py_node.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.878s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/my_first_oop_py_node.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.878s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.878s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.879s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/my_first_minimal_py_node.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.879s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/number_publisher_with_params.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.879s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.879s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_oop_client.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.880s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.880s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.880s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_minimal_client.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.880s] copying /home/yousif/example_ros2/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.881s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-310.pyc
+[1.881s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[1.882s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter_with_server.py to number_counter_with_server.cpython-310.pyc
+[1.883s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.883s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_oop_timer_py_node.py to my_first_oop_timer_py_node.cpython-310.pyc
+[1.884s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_oop_py_node.py to my_first_oop_py_node.cpython-310.pyc
+[1.884s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[1.885s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery.py to battery.cpython-310.pyc
+[1.886s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_minimal_py_node.py to my_first_minimal_py_node.cpython-310.pyc
+[1.887s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher_with_params.py to number_publisher_with_params.cpython-310.pyc
+[1.887s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.888s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_oop_client.py to add_two_ints_oop_client.cpython-310.pyc
+[1.889s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.890s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[1.890s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_minimal_client.py to add_two_ints_minimal_client.cpython-310.pyc
+[1.891s] byte-compiling /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.892s] running install_data
+[1.892s] creating /home/yousif/example_ros2/install/my_py_pkg/share/ament_index
+[1.893s] creating /home/yousif/example_ros2/install/my_py_pkg/share/ament_index/resource_index
+[1.893s] creating /home/yousif/example_ros2/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.893s] copying resource/my_py_pkg -> /home/yousif/example_ros2/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.893s] copying package.xml -> /home/yousif/example_ros2/install/my_py_pkg/share/my_py_pkg
+[1.893s] running install_egg_info
+[1.896s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.898s] running install_scripts
+[1.937s] Installing add_two_ints_minimal_client script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.937s] Installing add_two_ints_oop_client script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.937s] Installing add_two_ints_server script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.938s] Installing battery script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.938s] Installing hw_status_publisher script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.938s] Installing led_panel script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.938s] Installing my_first_minimal_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.938s] Installing my_first_oop_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.939s] Installing my_first_oop_timer_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.939s] Installing number_counter script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.939s] Installing number_counter_with_server script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.939s] Installing number_publisher script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.939s] Installing number_publisher_with_params script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.940s] Installing robot_news_station script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.940s] Installing smartphone script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[1.940s] writing list of installed files to '/home/yousif/example_ros2/build/my_py_pkg/install.log'
+[1.981s] Invoked command in '/home/yousif/example_ros2/src/my_py_pkg' returned '0': LD_LIBRARY_PATH=/home/yousif/example_ros2/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yousif/example_ros2/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yousif/example_ros2/build/my_py_pkg/build install --record /home/yousif/example_ros2/build/my_py_pkg/install.log --single-version-externally-managed install_data

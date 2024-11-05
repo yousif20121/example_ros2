@@ -1,0 +1,9 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/yousif/example_ros2/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/yousif/example_ros2/src/my_robot_interfaces:msg/LedStateArray.msg",
+    "/home/yousif/example_ros2/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/yousif/example_ros2/src/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}

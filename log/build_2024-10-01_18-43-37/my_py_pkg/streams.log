@@ -1,0 +1,31 @@
+[1.359s] Invoking command in '/home/yousif/example_ros2/build/my_py_pkg': LD_LIBRARY_PATH=/home/yousif/example_ros2/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yousif/example_ros2/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yousif/example_ros2/build/my_py_pkg/build --no-deps symlink_data
+[1.933s] running develop
+[2.301s] running egg_info
+[2.301s] writing my_py_pkg.egg-info/PKG-INFO
+[2.302s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.302s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.302s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.302s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.306s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.308s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.310s] running build_ext
+[2.311s] Creating /home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.313s] Installing add_two_ints_minimal_client script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing add_two_ints_oop_client script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing add_two_ints_server script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing battery script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing hw_status_publisher script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing led_panel script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing my_first_minimal_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing my_first_oop_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.314s] Installing my_first_oop_timer_py_node script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.315s] Installing number_counter script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.315s] Installing number_counter_with_server script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.315s] Installing number_publisher script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.315s] Installing number_publisher_with_params script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.315s] Installing robot_news_station script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.316s] Installing smartphone script to /home/yousif/example_ros2/install/my_py_pkg/lib/my_py_pkg
+[2.316s] 
+[2.316s] Installed /home/yousif/example_ros2/build/my_py_pkg
+[2.316s] running symlink_data
+[2.363s] Invoked command in '/home/yousif/example_ros2/build/my_py_pkg' returned '0': LD_LIBRARY_PATH=/home/yousif/example_ros2/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yousif/example_ros2/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousif/example_ros2/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yousif/example_ros2/build/my_py_pkg/build --no-deps symlink_data
